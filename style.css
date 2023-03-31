@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+     
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: white;
+    width: 75.73%;
+    top: 0px;
+    height: 308px;
+    left: 369px;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(cyan, rgb(19, 18, 18));
+
+}
+
+#playListImg {
+    display: flex;
+    /* flex-direction: row; */
+    
+}
+
+.top img{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    top: 48px;
+    left: 11px;
+    filter: drop-shadow(1px 7px 21px rgb(36, 39, 39));
+}
+
+#heading{
+    display: flex;
+    position: relative;
+    top: 122px;
+    left: 38px;
+    font-size: 66px;
+}
+
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    
+    /* height: 1388px;
+    width: 390px;
+    align-items: left;
+    flex-direction: column;  */
+   
+}
+
+nav ul li {
+    padding: 0px 12px;
+}
+
+.brand{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.brand img {
+    width: 135px;
+    padding: 21px 2px;
+}
+
+
+
+
+
+
+#home img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 5px;
+
+
+}
+
+#search img {
+    width: 30px;
+    height: 27px;
+    padding: 0px 5px;
+}
+
+
+
+#a1 img {
+    width: 18px;
+    height: 20px;
+    padding: 2px 5px;
+}
+
+#a1{
+    display: flex;
+    font-size: large;
+    flex-direction: row;
+    align-items: center ;
+    cursor: pointer;
+    position: relative;
+    top: 31px;
+    padding: 6px  20px;
+    
+}
+
+.sidebar {
+    display: flex;
+    font-size: large;
+    flex-direction: row;
+    align-items: center ;
+    cursor: pointer;
+    padding: 10px 18px;
+    position: sticky;
+    top: 90px
+    
+}
+
+#search{
+    position: sticky;
+    top:10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 121.85vh; */
+    position: absolute;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    right: -23rem;
+    width: 75.73%;
+    top: 0rem;
+    
+}
+
+.align{
+    /* position: sticky; */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 16px;
+    
+    /* width: 25%; */
+    /* background-color:black; */
+    /* height: 847px; */
+
+    
+}
+
+
+
+.bottom {
+
+    position: sticky;
+    height: 85px;
+    background-color: rgb(20, 18, 18);
+    bottom: 0px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.songItemPlay{
+    cursor: pointer;
+}
+
+.icons i {
+    cursor: pointer;
+    display: flex;
+
+}
+
+#myProgressBar {
+    width: 35vw;
+    height: 4px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.songItem{
+    
+    height: 50px;
+    display: flex;
+    /* background-color: white; */
+    width: 80%;
+    color: white;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+}
+
+.songItemContainer{
+    margin-top: 20px;
+
+}
+
+.songItem img{
+     
+    width: 40px;
+    margin: 0 23px;
+    /* border-radius: 34px; */
+}
+
+.songInfo{
+    position: absolute;
+    left: 13vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    /* opacity: 0; */
+    /* transition: opacity 0.4s ease-in; */
+    display: flex;
+    position: relative;
+    height: 58px;
+    width: 62px;
+    top: 4px;
+    left: -190px;
+
+}
+
+
+
+.timestamp{
+    margin: 0 23px;
+}
+
+#masterPlay{
+    margin: 0px 23px;
+    cursor: pointer;
+}
+
+#masterSongName{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  
+  left: -119px;
+  bottom: 7px;
+
+}
